@@ -1,0 +1,97 @@
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+body {
+    /* //Photo by <a href="https://unsplash.com/@gpthree?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">George Pagan III</a> on <a href="https://unsplash.com/photos/multicolored-wallpaper-WwCTFNpZx8g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+    background-image:url(./george-pagan-iii-WwCTFNpZx8g-unsplash.jpg); 
+    background-size: 100%;
+}
+
+h1 {
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    border: 5px solid black;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+h2 {
+    font-size:16px;
+    color: black;
+}
+
+section {
+    padding:5px 5px 25px 5px;
+    border: 5px solid black;
+    margin: 30px 30px;
+    background-color: white;
+}
+
+button {
+    font-size: 42px;
+    padding: 20px;
+    margin:10px;
+}
+
+button:hover {
+    background-color: grey;
+    border-color:black;
+    color:white;
+    cursor:grab;
+}
+
+
+.questions {
+    display:none;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+ul{
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+li:hover {
+    background-color: grey;
+    border-color:black;
+    color:white;
+    cursor:grab;
+}
+
+li {
+    width: 35%;
+    padding: 10px;
+    border: 5px solid navy;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: white;
+}
+
+.unseen {
+    display: none;
+}
+
+.seen {
+    display:block;
+    background-color: white;
+    /* border: 5px solid black; */
+}
+
+.response {
+    color: black;
+    border-top: 3px solid gray;
+    opacity: 75%;
+    width: 100%;
+}

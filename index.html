@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz (Timed)</title>
+    <link rel= "stylesheet" href = "./assets/styles.css">
+</head>
+<body>
+  <main>
+    <header><h1>Welcome to the Coding Quiz!</h1>
+      <h2 class = "timer">Time Left: 60</h2>
+    </header>
+      <div><button id = "start">Start Quiz!</button><button id="scoreboard"><a href = "scoreboard.html">Scoreboard</a></button></div>
+      <section class = "questions">
+       <div id = "question1">
+        <h3>Which of the following allows user input:</h3>
+          <ul>
+            <li class = "wrong">Prompt</li>
+            <li class = "wrong">Alert</li>
+            <li class = "wrong">Confirm</li>
+            <li class = "correct">All of the Above</li>
+          </ul>
+       </div>
+       <div class = "unseen" id = "question2">
+        <h3> Select the symbol used in JavaScript to show an array:</h3>
+          <ul>
+            <li class = "wrong">{}</li>
+            <li class = "wrong">()</li>
+            <li class = "wrong">~~</li>
+            <li class = "correct">[]</li>
+          </ul>
+       </div>
+       <div class = "unseen" id = "question3">
+          <h3 >What is the name for outputs of "true" or "false"?</h3>
+          <ul>
+            <li class = "wrong">String</li>
+            <li class = "correct">Boolean</li>
+            <li class = "wrong">Array</li>
+            <li class = "wrong">Function</li>
+          </ul>
+        </div>
+        <div class = "unseen" id = "question4">
+          <h3>To add further parameters in a "for loop" what syntax is used?</h3>
+          <ul>
+            <li class = "wrong">What if</li>
+            <li class = "wrong">Yes and</li>
+            <li class = "wrong">No but</li>
+            <li class = "correct">Else if</li>
+          </ul>
+        </div>
+      </section>
+    <h4><span class = "response"></span></h4>
+
+  </main>
+    <script src = "assets/script.js"></script>
+</body>
+</html>
