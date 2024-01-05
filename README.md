@@ -6,6 +6,6 @@ Here is the link to the deployed application: https://msteven5.github.io/Timed-C
 
 
 The one photo used in this application was provided by Unsplash.com and I have them credited here:
-//Photo by <a href="https://unsplash.com/@gpthree?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">George Pagan III</a> on <a href="https://unsplash.com/photos/multicolored-wallpaper-WwCTFNpZx8g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@gpthree?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">George Pagan III</a> on <a href="https://unsplash.com/photos/multicolored-wallpaper-WwCTFNpZx8g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 All coding in the HTML, CSS, JavaScript files was done by myself, utilizing resources given to me such as the school ai teaching assistant chat and information uncovered through websites meant to provide additional information.
