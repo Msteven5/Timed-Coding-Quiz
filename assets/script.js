@@ -10,6 +10,7 @@ const quizBegin = document.querySelector(".questions")
 var secondsLeft = 60;
 var timerInterval; 
 
+//timer that allows the page to run, giving the player 60 seconds
 function countDown() {
         timerInterval = setInterval(function() {
         secondsLeft--;
@@ -55,8 +56,6 @@ const questions = [
  let shownQuestion = 0;
 
  var quizOver = document.getElementsByClassName("questions")
-//  var initials = ("")
- // localStorage.setItem('finalScore', JSON.stringify(initials + ":" + secondsLeft));
  
   for (var i = 0; i < correctAnswers.length; i++) { 
     correctAnswers[i].addEventListener("click", function() {
