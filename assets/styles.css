@@ -5,9 +5,10 @@
 }
 
 body {
-    /* //Photo by <a href="https://unsplash.com/@gpthree?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">George Pagan III</a> on <a href="https://unsplash.com/photos/multicolored-wallpaper-WwCTFNpZx8g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
     background-image:url(./george-pagan-iii-WwCTFNpZx8g-unsplash.jpg); 
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h2 {
 }
 
 section {
-    padding:5px 5px 25px 5px;
+    /* padding:5px 5px 25px 5px; */
     border: 5px solid black;
     margin: 30px 30px;
     background-color: white;
@@ -61,6 +62,7 @@ ul{
     justify-content: center;
     align-items:center;
     flex-direction: column;
+    padding:0;
 }
 
 li:hover {
@@ -71,7 +73,7 @@ li:hover {
 }
 
 li {
-    width: 35%;
+    width: 50%;
     padding: 10px;
     border: 5px solid navy;
     border-radius: 30px;
@@ -86,7 +88,6 @@ li {
 .seen {
     display:block;
     background-color: white;
-    /* border: 5px solid black; */
 }
 
 .response {
